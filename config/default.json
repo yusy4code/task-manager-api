@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://yusuf:yusuf123@userdb-e34qx.mongodb.net/task-manager?retryWrites=true&w=majority",
+  "jwtSecret": "mySecret"
+}

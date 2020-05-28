@@ -1,0 +1,46 @@
+This  will be my first own MERN stack app.
+
+Objective is to have 
+
+    - User Table (MongoDB)
+    - Task Table
+    - Register User
+    - JWT token based authenticatino
+    - hashing password while storing
+    - Creating protected routes based on user logged in
+    - Able to view task related to that particular user
+
+Mongo Schema
+
+users:
+    _id
+    name
+    email
+    password
+    date
+
+tasks:
+    _id (for the task)
+    userid (belongs to the user)
+    taskName
+    taskDescription
+    taskStatus
+    date
+
+Backend routes:
+
+Users:
+
+GET /api/v1/users
+POST /api/vi/users
+GET /api/v1/users/:id
+PUT /api/v1/users/:id
+DELETE /api/v1/users/:id
+
+Tasks:
+
+GET /api/v1/tasks
+POST /api/vi/tasks
+GET /api/v1/tasks/:id
+PUT /api/v1/tasks/:id
+DELETE /api/v1/tasks/:id
